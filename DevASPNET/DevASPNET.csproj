@@ -42,6 +42,8 @@
     <Content Include="FrmResponseWrite.aspx" />
     <Content Include="FrmRequest.aspx" />
     <Content Include="FrmApplicationSession.aspx" />
+    <Content Include="FrmPageLoad.aspx" />
+    <Content Include="DevASPNET.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -94,6 +96,12 @@
     </Compile>
     <Compile Include="FrmServerMapPath.aspx.cs">
       <DependentUpon>FrmServerMapPath.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPageLoad.aspx.cs">
+      <DependentUpon>FrmPageLoad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPageLoad.aspx.designer.cs">
+      <DependentUpon>FrmPageLoad.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

@@ -13,7 +13,8 @@ namespace DevASPNET
             //Response.Redirect("FrmRequest.aspx");
             //Response.Redirect("FrmRequestUserHostAddress.aspx");
             //Response.Redirect("FrmServerMapPath.aspx");
-            Response.Redirect("FrmApplicationSession.aspx");
+            //Response.Redirect("FrmApplicationSession.aspx");
+            Response.Redirect("FrmPageLoad.aspx");
         }
 
         protected void btnClick_Click(object sender, EventArgs e)
