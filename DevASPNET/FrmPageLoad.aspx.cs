@@ -27,7 +27,7 @@ namespace DevASPNET
             objHtmlHead.Controls.Add(objHtmlLink);
             // The Way of Applying stylesheet in page dynamically
             Style objButtonStyle = new Style();
-            //bjButtonStyle.ForeColor = System.Drawing.Color.Navy;   // Color:Navy;
+            objButtonStyle.ForeColor = System.Drawing.Color.Navy;   // Color:Navy;
             objButtonStyle.Font.Size = 9;   // font-size:9pt
             objButtonStyle.Font.Name = "Verdana";
             Page.Header.StyleSheet.RegisterStyle(objButtonStyle, null);
@@ -35,7 +35,7 @@ namespace DevASPNET
             this.btnPostBack.CssClass = objButtonStyle.RegisteredCssClass;
 
             Style objDivStyle = new Style();
-            //objDivStyle.ForeColor = System.Drawing.Color.Blue;
+            objDivStyle.ForeColor = System.Drawing.Color.Blue;
             objDivStyle.Font.Size = 9;
             objDivStyle.Font.Name = "Verdana";
             objDivStyle.Font.Italic = true;
